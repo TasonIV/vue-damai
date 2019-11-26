@@ -1,0 +1,63 @@
+
+@mixin select-bg($num,$type){
+
+    @if $num == 1 {
+        @if $type == 1 {
+            background: url('../public/images/default_tab_star_selected.webp') no-repeat center center;
+            background-size: cover;
+        }@else{
+            background: url('../public/images/default_tab_star_normal.webp') no-repeat center center;
+            background-size: cover;
+        }
+    } @else if $num == 2 {
+        @if $type == 2{
+            background: url('../public/images/default_tab_my_selected.webp') no-repeat center -1.3rem;
+            background-size: 1.8rem 2rem;
+        }@else {
+            background: url('../public/images/default_tab_my_normal.webp') no-repeat center -1.3rem;
+            background-size: 1.8rem 2rem;
+        }
+        
+    } @else if $num == 3 {
+        @if $type == 3{
+            background: url('../public/images/default_tab_find_selected.webp') no-repeat center -1.3rem;
+            background-size: 1.9rem 2rem;
+        } @else{
+            background: url('../public/images/default_tab_find_normal.webp') no-repeat center -1.3rem;
+            background-size: 1.9rem 2rem;
+        }
+       
+    } @else if $num == 4 {
+        @if $type == 4 {
+            background: url('../public/images/default_tab_ticklet_selected.webp') no-repeat center -1.3rem;
+            background-size: 1.9rem 2rem;
+        }@else {
+            background: url('../public/images/default_tab_ticklet_normal.webp') no-repeat center -1.3rem;
+            background-size: 1.9rem 2rem;
+        }
+        
+    } @else {
+        @if $type == 5{
+            background: url('../public/images/default_tab_home_selected.webp') no-repeat center -1.1rem;
+            background-size: 1.6rem 1.7rem;
+          }@else{
+            background: url('../public/images/default_tab_home_normal.webp') no-repeat center -1.1rem;
+            background-size: 1.6rem 1.7rem;
+          }
+          }
+    }
+        
+
+
+    @mixin scale-border-bottom($color) {
+        position: relative;
+        &:after {
+          display: block;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          border-top: 1px solid $color;
+          content: " ";
+        }
+      }

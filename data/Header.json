@@ -1,0 +1,88 @@
+{
+   
+        "header": {
+            "bannerPicList": [
+                {
+                    "pic": "https://img.alicdn.com/tps/i4/TB1Qw1GdmSD3KVjSZFKSuv10VXa.jpg",
+                    "schema": "https://detail.damai.cn/item.htm?spm=a2oeg.home.searchtxt.ditem_0.591b23e1ztMRaM&pos=1&acm=2018091713-1.1003.2.6140601&id=595672561228&scm=1003.2.2018091713-1.OTHER_1570898977403_6140601"
+                },
+                {
+                    "pic": "https://img.alicdn.com/tps/i4/TB13YYUjlv0gK0jSZKbSuvK2FXa.jpg",
+                    "schema": "https://detail.damai.cn/item.htm?spm=a2oeg.project.searchtxt.ditem_0.50167e58eh6NJW&pos=2&acm=2018091713-2.1003.2.6790963&id=599078478988&scm=1003.2.2018091713-2.OTHER_1569397452095_6790963"
+                },
+                {
+                    "pic": "https://img.alicdn.com/tps/i4/TB1LUHVji_1gK0jSZFq1ropaXXa.JPG",
+                    "schema": "https://detail.damai.cn/item.htm?spm=a2oeg.project.searchtxt.ditem_0.7c436ae68vsI7w&pos=3&acm=2018091713-3.1003.2.6790969&id=604306398059&scm=1003.2.2018091713-3.OTHER_1573061983527_6790969"
+                },
+                {
+                    "pic": "https://img.alicdn.com/tps/i4/TB1uMvUjkL0gK0jSZFtSutQCXXa.jpg",
+                    "schema": "https://detail.damai.cn/item.htm?spm=a2oeg.project.searchtxt.ditem_0.25565ac9GOVFP2&pos=4&acm=2018091713-4.1003.2.6791066&id=603844352562&scm=1003.2.2018091713-4.OTHER_1569263395399_6791066"
+                },
+                {
+                    "pic": "https://img.alicdn.com/tps/i4/TB13HrPgUD1gK0jSZFGwu2d3FXa.png",
+                    "schema": "https://detail.damai.cn/item.htm?spm=a2oeg.project.searchtxt.ditem_1.4b8f5ed8ZorpBt&pos=5&acm=2018091713-5.1003.2.6688550&id=602871319602&scm=1003.2.2018091713-5.OTHER_1571988994409_6688550"
+                },
+                {
+                    "pic": "https://img.alicdn.com/tps/i4/TB1XnEAiAY2gK0jSZFgSuw5OFXa.jpg",
+                    "schema": "https://detail.damai.cn/item.htm?spm=a2oeg.project.searchtxt.ditem_0.3b567514cw88Nu&pos=6&acm=2018091713-6.1003.2.6760174&id=604235154741&scm=1003.2.2018091713-6.OTHER_1572772840666_6760174"
+                }
+            ],
+            "navigationList": [
+                {
+                    "pic": "https://img.alicdn.com/tps/i4/TB1egGnRCzqK1RjSZFpwu1kSXXa.png",
+                    "schema": "https://m.damai.cn/damai/category/index.html?pos=1&acm=2018091714.1003.2.4476523&scm=1003.2.2018091714.OTHER_1569079754765_4476523&categoryId=1&utm=fKRDL4",
+                    "title": "演唱会",
+                    "titleColor": "#000000"
+                },
+                {
+                    "pic": "https://img.alicdn.com/tps/i4/TB1XNKjRrvpK1RjSZPiwu2mwXXa.png",
+                    "schema": "https://m.damai.cn/damai/category/index.html?pos=2&acm=2018091714.1003.2.4476523&scm=1003.2.2018091714.OTHER_1567989497763_4476523&categoryId=3&utm=C1BRGr",
+                    "title": "话剧歌剧",
+                    "titleColor": "#000000"
+                },
+                {
+                    "pic": "https://img.alicdn.com/tps/i4/TB1LgakRxTpK1RjSZFKwu12wXXa.png",
+                    "schema": "https://m.damai.cn/damai/category/index.html?pos=3&acm=2018091714.1003.2.4476523&scm=1003.2.2018091714.OTHER_1566826911354_4476523&categoryId=2&utm=jBPxrj",
+                    "title": "音乐会",
+                    "titleColor": "#000000"
+                },
+                {
+                    "pic": "https://img.alicdn.com/tps/i4/TB1iHqlRpYqK1RjSZLewu2XppXa.png",
+                    "schema": "https://p.damai.cn/wow/act/act/dmsport?pos=4&acm=2018091714.1003.2.4476523&scm=1003.2.2018091714.OTHER_1568963053082_4476523&utm=QJd9Xw",
+                    "title": "体育",
+                    "titleColor": "#000000"
+                },
+                {
+                    "pic": "https://img.alicdn.com/tps/i4/TB1gzigRrPpK1RjSZFFwu15PpXa.png",
+                    "schema": "https://m.damai.cn/damai/category/index.html?pos=5&acm=2018091714.1003.2.4476523&scm=1003.2.2018091714.OTHER_1570219037652_4476523&categoryId=5&utm=CF3HtE",
+                    "title": "曲苑杂坛",
+                    "titleColor": "#000000"
+                },
+                {
+                    "pic": "https://img.alicdn.com/tps/i4/TB17wecRzDpK1RjSZFrwu178VXa.png",
+                    "schema": "https://m.damai.cn/damai/category/index.html?pos=6&acm=2018091714.1003.2.4476523&scm=1003.2.2018091714.OTHER_1568523252856_4476523&categoryId=100&utm=mzHpIq",
+                    "title": "亲子",
+                    "titleColor": "#000000"
+                },
+                {
+                    "pic": "https://img.alicdn.com/tps/i4/TB1Zw8MRCzqK1RjSZPcwu2TepXa.png",
+                    "schema": "https://m.damai.cn/damai/category/index.html?pos=7&acm=2018091714.1003.2.4476523&scm=1003.2.2018091714.OTHER_1570375121956_4476523&categoryId=7&utm=Ks19Xg",
+                    "title": "展览休闲",
+                    "titleColor": "#000000"
+                },
+                {
+                    "pic": "https://img.alicdn.com/tps/i4/TB1pLiuRwHqK1RjSZFkwu0.WFXa.png",
+                    "schema": "https://p.damai.cn/wow/act/act/damaiglobal?sortType=3&pos=8&acm=2018091714.1003.2.4476523&scm=1003.2.2018091714.OTHER_1569368444221_4476523&utm=LAhoKS",
+                    "title": "境外",
+                    "titleColor": "#000000"
+                }
+            ],
+            "posterList": [
+                {
+                    "pic": "https://img.alicdn.com/tfs/TB1OrMtjUY1gK0jSZFMXXaWcVXa-750-240.png"
+                }
+            ]
+        }
+
+                     
+}

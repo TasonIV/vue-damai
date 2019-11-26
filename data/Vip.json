@@ -1,0 +1,34 @@
+{
+    "api": "mtop.damai.wireless.vip.buypage.get",
+    "data": {
+        "pageInfo": {
+            "agreementUrl": "https://help.damai.cn/helpPageH5Context.htm?pageId=79",
+            "commonQuestionUrl": "https://help.damai.cn/helpPageH5Context.htm?pageId=80"
+        },
+        "userInfo": {
+            "imgUrl": "http://perico.damai.cn/userheadphotos/729101/145820268.jpg",
+            "userNick": "麦子17Bi3",
+            "vip": false,
+            "vipLevel": -9,
+            "vtag": "0"
+        },
+        "userVipInfo": {},
+        "vipCardInfo": {
+            "cardList": [
+                {
+                    "cardBgImg": "https://damai-vip-pic.oss-cn-beijing.aliyuncs.com/production/vip/vipCardBgImg/heFm33Ctx4.png",
+                    "cardId": 21,
+                    "cardPrice": "129",
+                    "originalPrice": "199",
+                    "rightsImg": "https://damai-vip-pic.oss-cn-beijing.aliyuncs.com/production/vip/vipCardRightsImg/a4feHWfeDx.png",
+                    "tagMsg": "限时特惠",
+                    "validDays": 365
+                }
+            ]
+        }
+    },
+    "ret": [
+        "SUCCESS::调用成功"
+    ],
+    "v": "1.0"
+}

@@ -1,0 +1,22 @@
+$m-color:#FF4D8E;
+
+$m-border-color:#F6F6F6;
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+    .border-1px:after {
+      transform: scaleY(0.7);
+    }
+  }
+  
+  @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+    .border-1px:after {
+      transform: scaleY(0.5);
+    }
+  }
+  
+  @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+    .border-1px:after {
+      transform: scaleY(0.34);
+    }
+  }
+

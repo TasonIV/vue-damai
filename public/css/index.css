@@ -1,0 +1,14 @@
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* 支持IE6 IE7 */
+.clearfix{
+    zoom:1;   
+}
+
+.auto-img{
+    width: 100%;
+    height: 100%;
+}
