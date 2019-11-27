@@ -5,25 +5,25 @@
     js、sass、vue、vue-router、vuex、axios、webpack、rem、better-scroll、swiper、viewer
     
 ### 项目部分截图展示：
-![](https://github.com/TasonIV/damai/blob/master/showImg/01首页.png)
-![](https://github.com/TasonIV/damai/blob/master/showImg/02全选-演出.png)
-![](https://github.com/TasonIV/damai/blob/master/showImg/02全选-大咖-详情.png)  
+![](https://github.com/TasonIV/vue-damai/blob/master/showImg/01首页.png)
+![](https://github.com/TasonIV/vue-damai/blob/master/showImg/02全选-演出.png)
+![](https://github.com/TasonIV/vue-damai/blob/master/showImg/02全选-大咖-详情.png)  
 
-![](https://github.com/TasonIV/damai/blob/master/showImg/02全选-大咖-详情-图片.png)
-![](https://github.com/TasonIV/damai/blob/master/showImg/03发现.png)
-![](https://github.com/TasonIV/damai/blob/master/showImg/04票夹-列表.png)  
+![](https://github.com/TasonIV/vue-damai/blob/master/showImg/02全选-大咖-详情-图片.png)
+![](https://github.com/TasonIV/vue-damai/blob/master/showImg/03发现.png)
+![](https://github.com/TasonIV/vue-damai/blob/master/showImg/04票夹-列表.png)  
 
-![](https://github.com/TasonIV/damai/blob/master/showImg/04票夹-二维码.png)
-![](https://github.com/TasonIV/damai/blob/master/showImg/05我的-已登录.png)
-![](https://github.com/TasonIV/damai/blob/master/showImg/06定位.png)  
+![](https://github.com/TasonIV/vue-damai/blob/master/showImg/04票夹-二维码.png)
+![](https://github.com/TasonIV/vue-damai/blob/master/showImg/05我的-已登录.png)
+![](https://github.com/TasonIV/vue-damai/blob/master/showImg/06定位.png)  
 
-![](https://github.com/TasonIV/damai/blob/master/showImg/07搜索.png)
-![](https://github.com/TasonIV/damai/blob/master/showImg/08客服.png)
-![](https://github.com/TasonIV/damai/blob/master/showImg/10演出详情.png)  
+![](https://github.com/TasonIV/vue-damai/blob/master/showImg/07搜索.png)
+![](https://github.com/TasonIV/vue-damai/blob/master/showImg/08客服.png)
+![](https://github.com/TasonIV/vue-damai/blob/master/showImg/10演出详情.png)  
 
-![](https://github.com/TasonIV/damai/blob/master/showImg/10演出详情-评价.png)
-![](https://github.com/TasonIV/damai/blob/master/showImg/10演出详情-购票.png)
-![](https://github.com/TasonIV/damai/blob/master/showImg/11设置.png)
+![](https://github.com/TasonIV/vue-damai/blob/master/showImg/10演出详情-评价.png)
+![](https://github.com/TasonIV/vue-damai/blob/master/showImg/10演出详情-购票.png)
+![](https://github.com/TasonIV/vue-damai/blob/master/showImg/11设置.png)
 
 ### 实现功能：
 
