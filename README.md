@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# damai-vue
-=======
 # vue仿大麦网移动端项目
 大麦网是一款移动端的演出门票购票平台。该平台为用户提供演唱会、话剧、体育比赛、儿童亲子、电影、展览等品类的选座购票服务，满足人们的观演需求。本项目使用vue框架实现。
 
@@ -44,27 +41,7 @@ __购买门票：__ 用户可自行选择价位及购票数，购票成功后会
 
 
 ### 命令
->>>>>>> 3532970fee850aab892d11489e2ce1f3f3437647
-
-## Project setup
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
