@@ -79,17 +79,6 @@ const store = new VueX.Store({
         listData3: [],
         listData4: [],
         listData5: [],
-        searchHistory: [
-            "吴亦凡",
-            "蔡徐坤",
-            "坤坤",
-            "i坤",
-            "张杰",
-            "林宥嘉",
-            "林俊杰",
-            "周杰伦",
-            "巴爷"
-        ]   // 搜索历史
     },
     mutations: {
         // 保存当前定位
@@ -258,14 +247,6 @@ const store = new VueX.Store({
             }
             state.PurchasedList.push(detail)
             console.log("PurchasedList===>", state.PurchasedList)
-        },
-        // 添加搜索历史
-        addSearchHistory(state, {value}){
-            state.searchHistory.push(value)
-        },
-        // 清空搜索历史
-        emptySearchHistory(state){
-            state.searchHistory = []
         }
     },
     actions: {

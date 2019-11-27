@@ -34,6 +34,8 @@
       </div>
     </div>
 
+    <div class="cover-bg"></div>
+
     <div class="container" ref="scrollA" v-if="type == 1">
       <div class="wrapper">
         <div class="table" v-for="(list3,index) in listDataAll" :key="index" @click="save(list3)">
@@ -501,10 +503,21 @@ export default {
   }
 }
 
+.cover-bg{
+  position: fixed;
+  top: 2.9rem;
+  left: 0;
+  right:0;
+  bottom: 1.1rem;
+  background-color: #fff;
+}
+
 .container {
-  // height: calc(100vh-1.1rem-0.9rem-1.1rem-1.1rem);
-  height: 9.7rem;
-  margin-top: 1.8rem;
+  position: fixed;
+  top: 2.9rem;
+  left: 0;
+  right:0;
+  bottom: 1.1rem;
   padding-bottom: 2rem;
   overflow: hidden;
 

@@ -273,14 +273,14 @@ export default {
 }
 
 .container {
-  height: 10.6rem;
   position: fixed;
+  top: 2rem;
+  left: 0;
+  right:0;
+  bottom: 1.1rem;
   overflow-y: auto;
   &::-webkit-scrollbar {
     display: none;
-  }
-
-  .wrapper {
   }
 }
 

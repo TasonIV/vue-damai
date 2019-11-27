@@ -2,7 +2,7 @@
   <div class="search">
     <div class="header">
       <van-search
-        v-model="value"
+        v-model.trim="value"
         placeholder="请输入搜索关键词 (限15字以内)"
         show-action
         left-icon="icon iconfont icon-sousuo"
@@ -61,34 +61,56 @@ export default {
   data: () => ({
     value: "",
     isEmpty: false,
-    item: null
+    item: null,
+    filterList: []
   }),
   computed: {
     ...mapState({
       list: "listDataAll",
       names: "searchHistory"
-    }),
-    filterList() {
-      // if (!this.value) {
-      //   return [];
-      // }
-      return this.list.filter(f => {
-        let reg = new RegExp(this.value, "gim");
-        console.log("reg===>", reg.test(f.cityName));
-        return reg.test(f.cityName);
-      });
-    }
+    })
   },
   mounted() {
     this.$store.dispatch("getListData", { axios: this.axios });
   },
   methods: {
     onInput() {
-      //   console.log("监听搜索触发了");
-      console.log("过滤后的数组==>", this.filterList);
-      console.log("关键词==>", this.value);
+      // console.log("监听搜索");
+      this.debounce(this.handle, 1000);
     },
-    onBlur() {},
+
+    handle() {
+      if (!this.value) {
+        this.filterList = [];
+      } else {
+        this.filterList = [
+          ...this.list.filter(f => {
+            let reg = new RegExp(this.value, "gim");
+            return (
+              // 匹配 城市、演出名、演出类型
+              reg.test(f.cityName) ||
+              reg.test(f.name) ||
+              reg.test(f.categoryName)
+            );
+          })
+        ];
+      }
+    },
+
+    // 防抖函数
+    debounce(fn, wait) {
+      var _this = this;
+      return (function() {
+        if (_this.timer !== null) {
+          clearTimeout(_this.timer);
+        }
+        _this.timer = setTimeout(fn, wait);
+      })();
+    },
+
+    onBlur() {
+      // console.log("失去焦点")
+    },
     onCancel() {
       this.$router.back();
     },
